@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 30px;
+    background-color: white;
+    color: black;
+}
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 2em;
+}
+nav{
+    background-color: red;
+    flex: 1;
+    text-align: right;
+    overflow: hidden;
+}
+#toggleDark{
+    margin-left: 20px;
+}
+nav h1{
+    text-align: left;
+    margin-left: 1%;
+}
+nav i{
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0% 30%;
+    transform: translate(-50%, -50%);
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: white;
+}
+h1 span{
+    color: black;
+}
+p span{
+    color: red;
+}
+img{
+    border-radius: 70%;
+    background-color: black;
+    margin-left: 75%;
+}
+fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid black;
+}
+fieldset:last-of-type{
+    border-bottom: none;
+}
+section a{
+    color: black;
+}
+section{
+    text-align: center;
+    justify-content: center;
+    font-style: bold;
+}
+section header{
+    justify-content: center;
+}
+.footer{
+    background-color: red;
+    align-items: center; 
+}
